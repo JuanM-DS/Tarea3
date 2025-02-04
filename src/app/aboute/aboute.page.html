@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="m1"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Aboute</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h2>Mi experiencia en esta tarea</h2>
+
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/dDNwasZSv4w?si=kz-S5WBriFlSUepZ" 
+      frameborder="0" allowfullscreen>
+    </iframe>
+  </div>
+</ion-content>
+
+<Style>
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+  max-width: 560px; /* Ajuste para escritorio */
+  height: 315px; /* Relación 16:9 */
+}
+
+
+</Style>
